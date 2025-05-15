@@ -51,3 +51,16 @@ export const GodotLink = ({ link, title, openModalClick }: { link: string, title
     );
 };
 
+export const GoDotModal = ({title, openModalClick}: {title: string, openModalClick?: () => void }) => {
+    return (
+        <div onClick={openModalClick}>
+            <div className="flex gap-2 p-1.5 hover:bg-gray-50">
+                <div className="text-[#52688D] bg-[#BFC8D7] text-xs rounded-sm p-1.5 h-fit">
+                    <GoDotFill />
+                </div>
+                <p className="text-base font-medium">{title}</p>
+            </div>
+            
+        </div>
+    )
+}
