@@ -7,7 +7,7 @@ const Personnels = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-5">
                         <div className="h-fit w-full border shadow-sm hover:shadow-md border-gray-200 p-5 rounded-md">
                             <GodotLink link="personnel" title="Personnel"/>
-                            <GodotLink title="Personnel Profile" />
+                            <GodotLink link="" title="Personnel Profile" />
                             <GodotLink link="personnel" title="Personnel" />
                             <GodotLink link="" title="Personnel Profile" />
                             <GodotLink link="" title="In / Out" />

@@ -38,7 +38,7 @@ const Assets = () => {
                             <GodotLink link="devices" title="Devices" />
                             <GodotLink link="devices-type" title="Device Type" />
                             <GodotLink link="devices-usage" title="Device Usage" />
-                            <GodotLink link="" title="Device Settings" />
+                            <GodotLink link="device-setting" title="Device Settings" />
                             <GodotLink link="" title="Device Profile" />
                         </div>
                     </div>
