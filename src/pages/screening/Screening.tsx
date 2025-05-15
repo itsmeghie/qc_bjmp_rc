@@ -5,7 +5,7 @@ import ScannerSelection from "./ScannerSelection";
 
 const Screening = () => {
     const [isRfidModalVisible, setIsRfidModalVisible] = useState(false);
-    const [isScannerSelectionModalOpen, setIsScannerSelectionModalOpen] = useState(false)
+    const [isScannerSelectionModalOpen, setIsScannerSelectionModalOpen] = useState(false);
     const [selectedArea, setSelectedArea] = useState<string | null>(null);
 
     return (
@@ -34,7 +34,6 @@ const Screening = () => {
                             setIsScannerSelectionModalOpen(true);
                         }}
                     />
-
                 </div>
             </div>
 

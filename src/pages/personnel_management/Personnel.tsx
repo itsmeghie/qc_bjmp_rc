@@ -8,16 +8,15 @@ const Personnels = () => {
                         <div className="h-fit w-full border shadow-sm hover:shadow-md border-gray-200 p-5 rounded-md">
                             <GodotLink link="personnel" title="Personnel"/>
                             <GodotLink title="Personnel Profile" />
+                            <GodotLink link="personnel" title="Personnel" />
+                            <GodotLink link="" title="Personnel Profile" />
+                            <GodotLink link="" title="In / Out" />
                         </div>
                         <div className="border border-gray-200 p-5 w-full shadow-sm hover:shadow-md rounded-md">
                             <GodotLink link="ranks" title="Ranks" />
                             <GodotLink link="positions" title="Positions" />
                             <GodotLink link="employment-type" title="Employment Type" />
                         </div>
-                         {/* <div className="w-full border shadow-sm hover:shadow-md border-gray-200 p-5 rounded-md"> */}
-                            {/* <GodotLink link="" title="Ins / Outs" /> */}
-                        {/* </div> */}
-                       
                     </div>
                     <div className="border border-gray-200 p-5 w-full shadow-sm hover:shadow-md rounded-md">
                             <Header title="MAINTENANCE"/>
